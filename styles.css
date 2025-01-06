@@ -563,6 +563,13 @@ nav {
   color: var(--white);
 }
 
+.nav__logo a, .footer__logo a {
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
 @media (width < 900px) {
   .nav__links {
     display: none;
